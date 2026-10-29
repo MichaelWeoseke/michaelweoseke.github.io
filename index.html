@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Security: only load files from this site itself. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self'; script-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Michael Weoseke | Marketing, Content, Film &amp; Photography</title>
+  <meta name="description" content="I help you tell your story through visuals, so you connect and resonate with your audience. Marketing, content, film and photography.">
+
+  <!-- Link previews (Instagram, WhatsApp, LinkedIn). Add images/og.jpg (1200x630) before launch. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Michael Weoseke | Marketing, Content, Film &amp; Photography">
+  <meta property="og:description" content="What's your story? Marketing, content, film and photography.">
+  <meta property="og:image" content="images/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#121212">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='17' fill='%23fff' text-anchor='middle'%3EMW%3C/text%3E%3C/svg%3E">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="videos.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <header class="bar">
+    <a class="wordmark" href="#top">Michael Weoseke</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="pill pill-sm" href="#contact">Contact</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker rise">Marketing · Content Specialist · Film &amp; Photography</p>
+        <h1 class="rise d1">What's your story?</h1>
+        <p class="lede rise d2">I don't just make things look good. I help you tell your story through my visuals to help you connect and resonate better with your audience.</p>
+        <div class="actions rise d3">
+          <a class="pill" href="#contact">Get in touch</a>
+          <a class="link-arrow" href="#work">See my work</a>
+        </div>
+      </div>
+      <div id="showreel" class="hero-reel rise d2" aria-label="Showreel"></div>
+    </section>
+
+    <!-- ========== WORK ========== -->
+    <section id="work" class="section">
+      <div class="sec-head rv">
+        <h2>Work</h2>
+        <p>Tap a clip to play it.</p>
+      </div>
+      <!-- Clips come from videos.js -->
+      <div id="work-grid" class="grid"></div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <!-- PLACEHOLDER: confirm the final services list -->
+    <section id="services" class="section">
+      <div class="sec-head rv">
+        <h2>Services</h2>
+      </div>
+      <ol class="services">
+        <li class="rv">
+          <span class="num">01</span>
+          <h3>Short-form editing</h3>
+          <p>TikTok, Reels and Shorts, edited for hook and retention.</p>
+        </li>
+        <li class="rv">
+          <span class="num">02</span>
+          <h3>Motion graphics</h3>
+          <p>Titles, captions and animated text for social video.</p>
+        </li>
+        <li class="rv">
+          <span class="num">03</span>
+          <h3>Content planning</h3>
+          <p>Planning what to post and helping run your account.</p>
+        </li>
+        <li class="rv">
+          <span class="num">04</span>
+          <h3>Simple filming</h3>
+          <p>Straightforward shoots when you need footage to edit.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== CASE STUDY ========== -->
+    <!-- Keep as "coming soon" until there are real, permitted numbers. -->
+    <section id="case-study" class="section">
+      <div class="soon-block rv">
+        <p class="kicker">Case study</p>
+        <h2>Coming soon</h2>
+        <p>A full write-up of a recent project, from first edit to results.</p>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section about">
+      <!-- PLACEHOLDER: add images/me.jpg and swap this box for an <img> -->
+      <div class="photo rv" role="img" aria-label="Photo coming soon"><span>Photo</span></div>
+      <div class="about-text rv">
+        <h2>About</h2>
+        <!-- PLACEHOLDER: draft text, edit to sound like you -->
+        <p>I'm Michael, a video editor with about three years of experience in short-form content, plus some long-form work for a tutoring business. My background is in marketing, so I think about what makes someone stop scrolling and keep watching, not just where the cuts go.</p>
+        <p>I edit in DaVinci Resolve and work with clients remotely.</p>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section contact">
+      <h2 class="rv">Let's work together</h2>
+      <p class="lede rv">Tell me about your project and I'll get back to you.</p>
+      <div class="contact-links rv">
+        <!-- Email is split into the part before and after the @ -->
+        <a class="pill" data-user="mikeweo" data-domain="proton.me" href="#contact">
+          Email <span class="email-text">me</span>
+        </a>
+        <a class="pill pill-ghost" href="https://www.instagram.com/mikeweoedits/" target="_blank" rel="noopener noreferrer">
+          Instagram @mikeweoedits
+        </a>
+      </div>
+      <noscript><p class="lede">Email: mikeweo [at] proton.me</p></noscript>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <span>&copy; <span id="year">2026</span> Michael Weoseke</span>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
